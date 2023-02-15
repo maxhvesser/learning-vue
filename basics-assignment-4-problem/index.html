@@ -32,9 +32,7 @@
 
     <!-- 3) Add dynamic inline styling to the below paragraph and let the user enter a background-color -->
     <input type="text" v-model="inputBackgroundColor"/>
-    <p
-            :style="{ backgroundColor: inputBackgroundColor }"
-    >
+    <p :style="{ backgroundColor: inputBackgroundColor }">
         Style me inline!
     </p>
 </section>
